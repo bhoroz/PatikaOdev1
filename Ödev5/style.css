@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(34, 99, 185, 0.582);
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+.anadiv{
+    text-align: center;
+    list-style-position: inside;
+    width: 800px;
+    margin: 6em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    background-image: url(https://picsum.photos/id/38/1600/1200);
+    opacity: .03rem;
+}
+
+/*  header  */
+
+.header1{
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.header2{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header2 li {
+    margin: 0px 20px;
+   
+}
+
+.header2 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.header2 li a:hover{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgba(34, 99, 185, 0.582);
+    background-color: white;
+    padding: .3rem;
+    border-radius: .4rem;
+    border: .1rem solid rgba(34, 99, 185, 0.582);
+}
+
+/* main */
+
+.main{
+    font-size: 1.3rem;
+}
+
+.hh3 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.bb1 {
+    text-align: justify;
+    
+}
+
+.liste1 li {
+    list-style-type: square;
+    color: black;
+}
+
+h3, h4, h2 {
+    background-color:rgba(34, 99, 185, 0.582);
+    display: inline-block;
+    border: 1px solid white;
+    padding: .7rem;
+    border-radius: 15px;
+    color: white;
+}
+
+/* ürünlerimiz */
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    justify-content: space-around;
+    margin: 10px;
+    align-content: flex-start;
+}
+
+.card img {
+   background-size: cover;
+   height: 130px;
+}
+
+.p1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+input {
+    outline: none;
+    border: 1px solid rgba(34, 99, 185, 0.582) ;
+    border-radius: 10px;
+    text-indent: 10px;
+}
